@@ -1,0 +1,79 @@
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color:rgba(0,0,255,.5);
+	padding: 40px;
+	border-radius: 40px;
+}
+
+main {
+	float: left;
+	width: 640px;
+}
+
+main ol li {
+	list-style: decimal-leading-zero;
+	color: white;
+}
+
+
+aside {
+	float: right;
+	width: 305px;
+	background-color: #336699;
+	border: solid black;
+	border-radius: 15px;
+}
+
+footer {
+	clear: both;
+}
+
+a:hover {
+	background-color:grey;
+	font-weight: bold;
+}
+
+.green {
+	color: white;
+}
+
+a {
+	font-weight: bold;
+	color: white;
+}
+
+h1, h2, p {
+	font-family: impact;
+}
+
+.storm {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/63/8d/56/638d56862a160c94b45abb4e89346f95.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+  background-size: cover;
+	color: white;
+}
+
+.header {
+	float: left;
+	color: white;
+	background-color: black;
+	border-top: 20px solid black;
+	border-bottom: 20px solid black;
+	border-left: 20px solid black;
+	border-right: 20px solid black;
+	margin-left: -10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-bottom-right-radius: 120px;
+	margin-right: 1px;
+	margin-top: -10px;
+}
+
+.storm2 {
+	background-image: url("https://images.fineartamerica.com/images-medium-large-5/ocean-storm-panorama-matt-dobson.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+  background-size: cover;
+}

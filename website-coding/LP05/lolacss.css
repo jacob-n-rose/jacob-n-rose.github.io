@@ -1,0 +1,25 @@
+body {
+	background-color: #66ccaa;
+padding-left: 50px;
+background-image: url(images/pawprint.png);
+background-repeat: repeat-y;
+color: purple;
+}
+
+
+
+
+
+
+
+
+header {color: white;
+	padding-left: 50px;
+	background-image: url(images/grass.png);
+	height: 150px;
+	background-repeat: repeat-x;
+	
+}
+
+.purple { color: purple;}
+                 

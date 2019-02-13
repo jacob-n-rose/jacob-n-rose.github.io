@@ -1,0 +1,71 @@
+body {
+	background-color: #66ccaa;
+padding-left: 50px;
+background-image: url(images/pawprint.png);
+background-repeat: repeat-y;
+color: purple;
+}
+
+
+
+
+
+
+
+
+header {color: white;
+	padding-left: 50px;
+	background-image: url(images/grass.png);
+	height: 150px;
+	background-repeat: repeat-x;
+	
+}
+
+.purple { color: purple;}
+
+
+
+input, textarea { padding-left: 10px;
+
+}
+#email { margin-left: 100px;
+
+}
+#Phone { margin-left: 35px;
+
+}
+#FirstName { margin-left: 60px;
+
+}
+#LastName { margin-left: 60px;
+
+}
+#comment{
+            width: 350px;
+            height:150px;
+  }
+  
+legend  { font-weight: bold;
+  }
+  
+#customer  { font-size: 25px;   }
+
+#reset {margin-left: 20px;  }
+
+#submit {margin-left: 20px;  }
+
+#fn { padding-left: 20px;}
+
+#ln { margin-left: 20px;}
+
+#e { margin-left: 20px;}
+
+#p { margin-left: 20px;}
+
+form {font-family: Ariel, sans-serif;}
+
+.eqaul {  margin-left: 5px;
+        margin-top: 5px;
+        width: 150px;
+
+}

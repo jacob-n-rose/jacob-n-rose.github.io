@@ -1,0 +1,61 @@
+#wrapper {  background-image: linear-gradient(to bottom, #0099cc, #ccffff);
+             margin: 0 auto;
+			 width: 80%;
+			 min-width: 800px;
+			 }
+
+	 body { background-image: linear-gradient(to bottom, #0099cc, #ccffff);
+font-family: Verdana, Arial, sans-serif;}
+			 
+main {
+       margin-left: 230px;
+	   overflow: auto;}
+
+header {
+         background-image: url(images/NOS_logo.png);
+		 background-repeat: no-repeat;
+		
+		 height: 180px;
+		 margin: 30px;
+}
+
+nav {  float: left;
+        border: 2px solid blue;
+        width: 180px;
+		list-style-type: none;
+         margin: 0;
+		 padding: 0; 
+		 overflow: auto;
+		 margin-top: 200px;
+		 border-radius: 10px;
+		 margin-left: 15px;
+		 
+		 font-family: Verdana, Arial, sans-serif;}
+
+nav ul { list-style-type: none;  
+         
+		 margin: 0;
+		 padding: 0;
+		 padding-left: 5px;
+		 
+
+                      }
+					  
+nav li { padding-left: 10px;
+         padding: 0;
+		 margin: 0;
+		 padding-left: 10px;
+		 padding-bottom: 10px;
+    }
+nav ul { text-decoration: underline;
+          padding-bottom: 5px;  }
+
+nav a:link { color: blue; 
+             font-weight: bold;}
+nav a:visited { color: purple; }
+
+
+
+
+
+

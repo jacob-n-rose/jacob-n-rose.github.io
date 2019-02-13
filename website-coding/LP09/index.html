@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="lolacss.css">
+<title>Home</title>
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+<h1 class="purple">Lola's Pet Sitting Service</h1>
+<p>"A dog wags its tail with its heart"- Martin Buxbaum"</p>
+<h2> 920-555-1212 </h2>
+</header>
+<h2>Welcome</h2>
+<p>Lola's Pet Services provides you peace of mind while you're away.  
+We will stop in and socioliz your pet, go for a walk, groom it, and 
+feed it!
+</p>
+
+<h2><a href="index.html"><img src="images/home.png" alt="home"> </a>
+    <a href="walking/index.html"><img src="images/walking.png" alt="walking"></a>
+	<a href="grooming/index.html"><img src="images/grooming.png" alt="grooming"></a>
+	<a href="feeding/index.html"><img src="images/feeding.png" alt="feeding"></a>
+	</h2>
+<p>Put your trust in Lola's Pet Sitting Services for your next time away 
+from your pet!</p>
+
+<h4><a href="index.html">HOME</a>
+    <a href="walking/index.html">WALKING</a>
+	<a href="grooming/index.html">GROOMING</a>
+	<a href="feeding/index.html">FEEDING</a>
+</h4>
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+<fieldset id="mainform">
+<legend id="customer">Customer Info</legend>
+<label id="fn">First Name:</label><input class="eqaul" type="text" name="FirstName" id="FirstName">
+<br><br>
+<label id="ln">Last Name</label>:<input class="eqaul" type="text" name="LastName" id="LastName">
+<br><br>
+<label id="e">Email</label>:<input class="eqaul" type="email" name="Email" id="email">
+<br><br>
+<label id="p">Phone Number:</label><input class="eqaul" type="tel" name="Phone" id="Phone">
+<br><br>
+<fieldset><legend>Neighborhood Location</legend>
+Suburbs:<input type="radio" name="Location" id="sub" value="Suburbs">
+Ghetto:<input type="radio" name="Location" id="hood" value="Ghetto">
+Beach Front:<input type="radio" name="Location" id="beach" value="Beach front">
+</fieldset>
+<br><br>
+
+<fieldset><legend>Pet Information</legend>
+<select>
+    <option value="" disabled="disabled" selected="selected">Please select a type of pet</option>
+    <option value="1">Dog</option>
+    <option value="2">Cat</option>
+	 <option value="3">Reptile</option>
+	  <option value="4">Bird</option>
+</select>
+<br><br>
+<select>
+    <option value="" disabled="disabled" selected="selected">Please select a type of pet</option>
+    <option value="1">Dog</option>
+    <option value="2">Cat</option>
+	 <option value="3">Reptile</option>
+	  <option value="4">Bird</option>
+</select>
+<br>
+<br>
+<label for="numofpets">
+Choose the # of Pets Between 1 and 6</label><br>
+Low<input type="range" min="1" max="6" name="numofpets" id="numofpets" >High
+</fieldset>
+<fieldset><legend>Comments/Questions</legend>
+<textarea cols="40" rows="5" name="comments" id="comments">
+</textarea>
+</fieldset>
+<br>
+<input type="submit" id="submit">
+<br><br>
+<input type="reset" id="reset">
+
+</fieldset>
+</form>
+
+
+
+<footer>
+<p><small>Copyright&copy; 2017 Jacob Rose</small></p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

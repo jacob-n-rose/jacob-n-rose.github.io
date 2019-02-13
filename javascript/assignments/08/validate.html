@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JavaScipt Lesson 07 -- JQuery v2</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <nav>
+      <img id='logo'  alt="Jacob Rose Logo" width="150" height="60" src="../../../freetime/images/EagleDsgins.PNG">
+        <ul>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="../../index.html">JavaScript</a></li>
+            <li><a href="../../../website-coding/index.html">Website Coding</a></li>
+        </ul>
+    </nav>
+    <header>
+      <h1>JavaScipt Lesson 07 -- JQuery v2</h1>
+    </header>
+    <main>
+    <h2>Assignments</h2>
+
+    <form novalidate id="form" method="post" action="//example.com">
+    <fieldset>
+        <legend>Inputs</legend>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Allergies</legend>
+           <p>
+
+            <input type="radio" id="gender_male" value="male" name="gender">
+            <label for="gender_male">Cats</label>
+
+            <input type="radio" id="gender_female" value="female" name="gender"/>
+            <label for="gender_female">Dogs</label>
+        </p>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Married Status</legend>
+        <p>
+            <input type="radio" id="family_single" value="single" name="family">
+            <label for="family_single">Single</label>
+
+            <input type="radio" id="family_married" value="married" name="family">
+            <label for="family_married">Married</label>
+
+            <input type="radio" id="family_other" value="other" name="family">
+            <label for="family_other">Other</label>
+       </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Legal</legend>
+        <p>
+            <input
+                data-msg="You Must Agree To Our Policy!"
+                type="checkbox"
+                class="checkbox"
+                id="agree"
+                name="agree"
+                value="yes">
+            <label for="agree">Please agree to our policy</label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Do you want Spam?</legend>
+        <p>
+            <input type="checkbox" class="checkbox" id="spam_email" value="email" name="spam[]">
+            <label for="spam_email">Spam via E-Mail</label>
+
+            <input type="checkbox" class="checkbox" id="spam_phone" value="phone" name="spam[]">
+            <label for="spam_phone">Spam via Phone</label>
+
+            <input type="checkbox" class="checkbox" id="spam_mail" value="mail" name="spam[]">
+            <label for="spam_mail">Spam via Mail</label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select</legend>
+        <p>
+            <label for="boat">Please select a lizard type</label>
+            <select id="boat" name="boat" title="Please select something!">
+                <option value="">Choose Boat...</option>
+                <option value="row">Green</option>
+                <option value="sail">Brown</option>
+                <option value="speed">Black</option>
+            </select>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select (Multiple: Min Length: 2)</legend>
+        <p>
+            <label for="fruit">Please select at least two Fruits</label><br/>
+            <select id="fruit" name="fruit[]" title="Please select at least two fruits" multiple="multiple">
+                <option value="banana">Banana</option>
+                <option value="apple">Apple</option>
+                <option value="peach">Peach</option>
+                <option value="star">Star</option>
+            </select>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select (Multiple: Max Length 2)</legend>
+        <p>
+            <label for="vegetables">Please select no more than two vegetables</label><br/>
+            <select id="vegetables" name="vegetables[]" title="Please select no more than two vergetables" multiple="multiple">
+                <option value="potato">Potato</option>
+                <option value="tomato">Tomato</option>
+                <option value="salad">Salad</option>
+            </select>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select (Multiple: Range Length 2,3)</legend>
+        <p>
+            <label for="cars">Please select at least two cars, but no more than three</label><br/>
+            <select id="cars" name="cars[]" title="Please select at least two cars, but no more than three" multiple="multiple">
+                <option value="mercedes-sl">Mercedes SL</option>
+                <option value="opel-corsa">Opel Corsa</option>
+                <option value="vw-polo">VW Polo</option>
+                <option value="titanic-skoda">Titanic Skoda</option>
+            </select>
+        </p>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Submit</legend>
+        <p>
+            <input class="submit" type="submit" value="Submit"/>
+        </p>
+    </fieldset>
+</form>
+      <h2>Username:  <input id='username' type='text'></h2><div id="UNfeedback"></div>
+      <h2>Password:  <input id='password' type='text'></h2><div id="PWfeedback"></div>
+      <button type="button" id="button">Submit</button>
+    </main>
+      </div>
+      <footer>
+        <ul>
+          <li><a href="../../../index.html">&copy; 2018 Jacob</a></li>
+          <li><a href="http://validator.w3.org/check?uri=referer">HTML</a></li>
+          <li><a href="http://jigsaw.w3.org/css-validator/check/referer/">CSS</a></li>
+        </ul>
+      </footer>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+      <script>window.jQuery || document.write('<script type="text/javascript" src="assets/jquery-3.3.1.min.js"><\/script>')</script>
+      <script>window.jQuery.fn.validate|| document.write('<script type="text/javascript" src="assets/jquery.validate.min.js"><\/script>')</script>
+      <script src="validate.js"></script>
+  </body>
+</html>
